@@ -26,8 +26,8 @@ sudo make clean install
 + Select and middle mouse button also copies and pastes
 
 ## del key in bash
-Add `tput smkx` to your `.bashrc`.\n
-The del key does not work out of the box in `st` and therefore this is the easiest workaround.\n
+Add `tput smkx` to your `.bashrc`.<br/>
+The del key does not work out of the box in `st` and therefore this is the easiest workaround.<br/>
 No need of modification if using `zsh`.
 
 ## Features not included in st
