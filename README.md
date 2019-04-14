@@ -31,7 +31,7 @@ This is currently the best way to make the del key work.
 No need to do this if using `zsh`.
 
 ## Features not included in st
-+ del key not perfectly working in bash
++ del key not perfectly working in bash (provisional fix)
 + No realignment if st is being resized
 + No select and scroll
 + Endless scrollback (not big of a deal)
