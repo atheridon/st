@@ -27,6 +27,7 @@ sudo make clean install
 
 ## del key in bash
 Add `tput smkx` to your `.bashrc`.<br/>
+
 The del key does not work out of the box in `st` and therefore this is the easiest workaround.<br/>
 No need of modification if using `zsh`.
 
