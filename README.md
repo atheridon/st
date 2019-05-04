@@ -25,7 +25,7 @@ sudo make clean install
 + Ctrl+Shift+V to paste
 + Select and middle mouse button also copies and pastes
 
-## del key in bash
+## del key not working
 Add `set enable-keypad on` to `/etc/inputrc` or `~/.inputrc`.
 
 ## Features not included in st
