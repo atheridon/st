@@ -29,8 +29,7 @@ sudo make clean install
 Add `set enable-keypad on` to `/etc/inputrc` or `~/.inputrc`.
 
 ## Features not included in st
-+ del key not perfectly working in bash (provisional fix)
 + No realignment if st is being resized
-+ No select and scroll
++ No select on scroll
 + Endless scrollback (not big of a deal)
 + No vi(m) keybinds
