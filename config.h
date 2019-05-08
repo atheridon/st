@@ -49,7 +49,7 @@ static unsigned int actionfps = 30;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 100;
+static unsigned int blinktimeout = 0;
 
 /*
  * thickness of underline and bar cursors
@@ -114,6 +114,7 @@ static const char *colorname[] = {
 	"#555555",
 	"black",
 	"#ffff00",
+	"#00fffa",
 };
 
 
@@ -123,7 +124,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 259;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 259;
+static unsigned int defaultcs = 260;
 static unsigned int defaultrcs = 257;
 
 /*
