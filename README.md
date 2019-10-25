@@ -1,4 +1,4 @@
-# recktard's fork of st
+# lesflol's fork of st
 
 The [suckless simple terminal](https://st.suckless.org/) with some basic features:
 
