@@ -1,4 +1,4 @@
-# lesflol's fork of st
+# Atheridon's fork of st
 
 The [suckless simple terminal](https://st.suckless.org/) with some basic features:
 
