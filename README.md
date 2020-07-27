@@ -1,10 +1,14 @@
 # Atheridon's fork of st
 
-The [suckless simple terminal](https://st.suckless.org/) with some basic features:
+The [suckless simple terminal](https://st.suckless.org/). 
 
-+ Transparency (alpha)
-+ Scrollback with mousewheel
-+ Clipboard 
+## Patches applied
+
++ alpha
++ blinking cursor
++ clipboard 
++ scrollback 
++ w3m
 
 ## Configuration
 
@@ -28,8 +32,15 @@ sudo make clean install
 ## del key not working
 Add `set enable-keypad on` to `/etc/inputrc` or `~/.inputrc`.
 
-## Features not included in st
-+ No realignment if st is being resized
-+ No select on scroll
-+ Endless scrollback (not big of a deal)
-+ No vi(m) keybinds
+## st in combination with the suckless scroll program
+
+You can also find the suckless scroll program in this repository which,
+when enabled in the st config.h file, will add scrollback to st and text 
+will NOT be cut off anymore when resizing the terminal window. 
+
+# How to install scroll
+
+```
+cd scroll
+sudo make clean install
+```
