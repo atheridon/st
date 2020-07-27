@@ -38,7 +38,7 @@ You can also find the suckless scroll program in this repository which,
 when enabled in the st config.h file, will add scrollback to st and text 
 will NOT be cut off anymore when resizing the terminal window. 
 
-# How to install scroll
+### How to install scroll
 
 ```
 cd scroll
