@@ -5,7 +5,6 @@ The [suckless simple terminal](https://st.suckless.org/).
 ## Patches applied
 
 + alpha
-+ blinking cursor
 + clipboard 
 + scrollback 
 + w3m
