@@ -36,8 +36,7 @@ Add `set enable-keypad on` to `/etc/inputrc` or `~/.inputrc`.
 You can also find the suckless scroll program in this repository which,
 when enabled in the st config.h file, will add scrollback to st and text 
 will NOT be cut off anymore when resizing the terminal window. BUT scroll 
-still has a few bugs in it that can cause problems with scrolling or using 
-a cli-based text editor like vim.  
+is still experimental and therefore contains bugs.
 
 ### How to install scroll
 
