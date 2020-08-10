@@ -5,9 +5,10 @@ The [suckless simple terminal](https://st.suckless.org/).
 ## Patches applied
 
 + alpha
++ blinking cursor
 + clipboard 
++ externalpipe
 + scrollback 
-+ w3m
 
 ## Configuration
 
@@ -22,6 +23,8 @@ sudo make clean install
 
 ## Useful keyboard shortcuts
 
++ Alt+o to open URLs
++ Alt+l to copy URLs
 + Ctrl+Shift+J to zoom out (make text smaller)
 + Ctrl+Shift+K to zoom in (make text bigger)
 + Ctrl+Shift+C to copy
