@@ -1,4 +1,4 @@
-# Atheridon's fork of st
+# Fork of st
 
 The [suckless simple terminal](https://st.suckless.org/). 
 
