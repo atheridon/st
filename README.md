@@ -24,7 +24,7 @@ sudo make clean install
 ## Useful keyboard shortcuts
 
 + Alt+o to open URLs (need script [st-urlhandler](https://github.com/flolesko/scripts/blob/master/st-urlhandler)! -> change openurlcmd in config.h)
-+ Alt+l to copy URLs (need script [st-urlhandler](https://github.com/flolesko/scripts/blob/master/st-urlhandler) -> change copyurlcmd in config.h)
++ Alt+l to copy URLs (need script [st-urlhandler](https://github.com/flolesko/scripts/blob/master/st-urlhandler)! -> change copyurlcmd in config.h)
 + Ctrl+Shift+J to zoom out (make text smaller)
 + Ctrl+Shift+K to zoom in (make text bigger)
 + Ctrl+Shift+C to copy
