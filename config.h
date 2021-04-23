@@ -19,7 +19,7 @@ static int borderpx = 10;
 static char *shell = "/bin/bash";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
-char *scroll = NULL;
+char *scroll = "scroll";
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
 /* identification sequence returned in DA and DECID */
@@ -151,7 +151,7 @@ static unsigned int defaultrcs = 0;
  * 7: Blinking st cursor
  * 8: Steady st cursor
  */
-static unsigned int cursorstyle = 5;
+static unsigned int cursorstyle = 0;
 static Rune stcursor = 0x2603; /* snowman (U+2603) */
 
 /*
@@ -197,7 +197,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* use externalpipe to open URLs */
-static char *openurlcmd[] = { "/bin/sh", "-c", "~/owncloud/Linux/scripts/st-urlhandler", "externalpipe", NULL };
+static char *openurlcmd[] = { "/bin/sh", "-c", "~/nextcloud/Linux/scripts/st-urlhandler", "externalpipe", NULL };
 
 /* use externalpipe to copy URLs */
 static char *copyurlcmd[] = { "/bin/sh", "-c",
