@@ -9,6 +9,7 @@ The [suckless simple terminal](https://st.suckless.org/).
 + clipboard 
 + externalpipe
 + scrollback 
++ newterm
 
 ## Configuration
 
