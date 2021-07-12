@@ -224,6 +224,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ TERMMOD,              XK_Return,      newterm,        {.i =  0} },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_l,           externalpipe,   {.v = copyurlcmd } },
 };
